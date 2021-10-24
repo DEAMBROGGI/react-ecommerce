@@ -1,0 +1,6 @@
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm i accounting
+npm install firebase
+npm i react-router-dom
+npm install react-rating-stars-component --save
