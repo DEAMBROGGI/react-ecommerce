@@ -60,6 +60,22 @@ export default function PayPal() {
                         currency_code: "USD",
                         value: "200.00"
                     }
+                    shipping: {
+                            currency_code: "USD",
+                            value: "30.00"
+                        },
+                        handling: {
+                            currency_code: "USD",
+                            value: "10.00"
+                        },
+                        tax_total: {
+                            currency_code: "USD",
+                            value: "20.00"
+                        },
+                        shipping_discount: {
+                            currency_code: "USD",
+                            value: "10"
+                        }
                 }
             },
             items: [
