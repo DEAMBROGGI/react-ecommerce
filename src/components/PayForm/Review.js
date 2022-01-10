@@ -4,6 +4,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Grid from '@mui/material/Grid';
+import PayPal from './PayPal'
 
 const products = [
   {
@@ -81,8 +82,10 @@ export default function Review() {
                 </Grid>
               </React.Fragment>
             ))}
+            
           </Grid>
         </Grid>
+        <PayPal/>
       </Grid>
     </React.Fragment>
   );

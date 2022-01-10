@@ -13,6 +13,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import {useStateValue} from '../StateProvider';
 import {actionTypes} from '../reducer'
 
+
 let theme = createTheme(); 
 theme = responsiveFontSizes(theme);
 

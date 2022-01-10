@@ -16,6 +16,7 @@ import { actionTypes } from './reducer';
 import {useStateValue} from './StateProvider';
 import Checkout from './components/PayForm/Checkout';
 
+
 function App() {
   
   const [{user},dispatch] = useStateValue();
@@ -72,6 +73,7 @@ async function getProducts() {
     <Navbar key={products.id} products={products}/>
     <Switch>
     
+
         <Route path='/signin'>
           <SignIn/>
         </Route>

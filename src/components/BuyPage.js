@@ -5,6 +5,7 @@ import BuyCard from './BuyCard';
 import { Typography } from '@mui/material';
 import  Total  from './Total';
 
+
 const BuyPage =()=>{
 
     const [{basket},dispatch] = useStateValue();
@@ -16,7 +17,7 @@ return(
     <React.Fragment>
         {basket?.map((item)=>
 
-            <Grid item xs={12} sm={8} md={6} lg={4} >
+            <Grid item xs={12} sm={12} md={12} lg={12} >
                 <BuyCard key={item.id} product={item}/>
             </Grid>
             
@@ -32,10 +33,10 @@ return(
                 Shopping Cart
             </Typography>
         </Grid>
-        <Grid item xs={12} sm={8} md={9}  container spacing={2}>
+        <Grid item xs={12} sm={4} md={4}  container spacing={2}>
             <FormRow/>
         </Grid>
-        <Grid item xs={12} sm={4} md={3}>
+        <Grid item xs={12} sm={8} md={8}>
             <Typography align="center" gutterBottom variant="h4">
              <Total/>
             </Typography>

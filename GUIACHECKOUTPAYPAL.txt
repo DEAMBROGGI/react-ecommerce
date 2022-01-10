@@ -1,0 +1,15 @@
+https://developer.paypal.com/docs/checkout/standard/customize/single-page-app/
+https://developer.paypal.com/sdk/js/configuration/
+https://developer.paypal.com/docs/log-in-with-paypal/customize/button-design-guide/
+npm i @paypal/react-paypal-js
+
+Una vez que ingresemos en este link y creemos nuestra app nos va a brindar un Client ID y un secret necesarios para conectar nuestra app con paypal.
+Ternornamos a MyApp en payplay y veremos dos pestañas SANDBOX y LIVE
+
+SANDBOX, es para realizar las simulaciones de pagos en nuestra app.
+LIVE: se utiliza una vez que ya tenemos todo listo para implementar los pagos reales
+
+
+
+
+https://www.youtube.com/watch?v=sa9XtaKcSvo
