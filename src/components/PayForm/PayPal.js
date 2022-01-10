@@ -22,7 +22,7 @@ export default function PayPal() {
     }, [basket]);
 
     const initialOptions = { // Genero las opciones para enviarle al CDN
-        "client-id": "YOUR PAYPAL Client ID",
+        "client-id": "AUzLXvUHDcNu5B7vgEvIt8Ag27Lz8ZDQlWfqKs6EgzhpZnYZL2Qb0Orw0hKCTkdFNKJHQ_x-RwQaOdaq",
         currency: "USD", //Establesco la moneda
         intent: "capture", //Estableco el metodos este autoriza la operacion y captura los fondos
         
@@ -33,7 +33,7 @@ export default function PayPal() {
        //Creo la orden de con los datos, esta puede ser general o con detalle de items
       console.log(data)
     return actions.order.create({
-            /* purchase_units: [
+             purchase_units: [
        {
           description:"items",
           amount: {
@@ -43,8 +43,8 @@ export default function PayPal() {
         },
      
        
-      ],*/
- 
+      ],
+ /*
      purchase_units: [{
                 reference_id: "PUHF",
                 description: "Sporting Goods",
@@ -123,7 +123,7 @@ export default function PayPal() {
                         country_code: "US"
                     }
                 }
-            }]
+            }]*/
     });
   };
   const onApprove = (data, actions) => { //recibo el resultado de mi operacion
