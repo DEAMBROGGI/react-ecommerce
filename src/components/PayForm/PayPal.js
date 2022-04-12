@@ -33,7 +33,7 @@ export default function PayPal() {
        //Creo la orden de con los datos, esta puede ser general o con detalle de items
       console.log(data)
     return actions.order.create({
-             purchase_units: [
+            purchase_units: [
        {
           description:"items",
           amount: {
@@ -44,8 +44,8 @@ export default function PayPal() {
      
        
       ],
- /*
-     purchase_units: [{
+ 
+    /* purchase_units: [{
                 reference_id: "PUHF",
                 description: "Sporting Goods",
 
@@ -123,7 +123,8 @@ export default function PayPal() {
                         country_code: "US"
                     }
                 }
-            }]*/
+            }]
+            */
     });
   };
   const onApprove = (data, actions) => { //recibo el resultado de mi operacion

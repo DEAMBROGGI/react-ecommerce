@@ -3,14 +3,14 @@ import { getFirestore} from 'firebase/firestore/lite';
 import { getAuth} from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_DATA",
-    authDomain: "YOUR_API_DATA",
-    databaseURL: "YOUR_API_DATA",
-    projectId: "YOUR_API_DATA",
-    storageBucket: "YOUR_API_DATA",
-    messagingSenderId: "YOUR_API_DATA",
-    appId: "YOUR_API_DATA",
-    measurementId: "YOUR_API_DATA"
+    apiKey: "AIzaSyAzsCL7eQ37r7u_WHIWI9gN12LNt2q0qEY",
+  authDomain: "amdev-2e652.firebaseapp.com",
+  databaseURL: "https://amdev-2e652-default-rtdb.firebaseio.com",
+  projectId: "amdev-2e652",
+  storageBucket: "amdev-2e652.appspot.com",
+  messagingSenderId: "1004868076348",
+  appId: "1:1004868076348:web:e5f9932e44dc038289d439",
+  measurementId: "G-1DL648R1YD"
 };
 
 const app = initializeApp(firebaseConfig);
